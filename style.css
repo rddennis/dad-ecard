@@ -1,0 +1,46 @@
+body, html {
+	background-color: white;
+	font-family: 'Allura', cursive;
+	color: #194d33;
+}
+
+.container {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	width:626px;
+	height:626px;
+	margin-top: -313px; /*set to a negative number 1/2 of your height*/
+	margin-left: -313px; /*set to a negative number 1/2 of your width*/
+	background-color: white;
+	border: 3px dotted #194d33;
+	overflow: hidden;
+}
+
+.main_image, .blank, .hello, .message, .signature {
+	width: 626px;
+	height: 626px;
+	position: absolute;	
+	margin-left: -15px;
+	margin-top: 1px;
+}
+
+.blank {
+	background: #BEE0BD;
+}
+
+.hello h1 {
+	font-size: 14px;
+}
+
+.message {
+	top: 626px;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: right;
+}
